@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Comet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="launchers">
+        <item>Action Launcher</item>
+        <item>ADW Launcher</item>
+        <item>ADW EX Launcher</item>
+        <item>Apex Launcher</item>
+        <item>Atom Launcher</item>
+        <item>Aviate Launcher</item>
+        <item>CM Theme Engine</item>
+        <item>Epic Launcher</item>
+        <item>Go Launcher</item>
+        <item>Google Now Launcher</item>
+        <item>Holo Launcher</item>
+        <item>Holo Launcher HD</item>
+        <item>Inspire Launcher</item>
+        <item>KK Launcher</item>
+        <item>L Launcher</item>
+        <item>LG Home</item>
+        <item>Lucid Launcher</item>
+        <item>Mini Launcher</item>
+        <item>Nemus Launcher</item>
+        <item>Next Launcher</item>
+        <item>Nine Launcher</item>
+        <item>Nova Launcher</item>
+        <item>S Launcher</item>
+        <item>Smart Launcher</item>
+        <item>Smart Launcher Pro</item>
+        <item>Solo Launcher</item>
+        <item>TSF Launcher</item>
+    </string-array>
+    <array name="ids">
+        <item>@mipmap/action</item>
+        <item>@mipmap/adw</item>
+        <item>@mipmap/adw</item>
+        <item>@mipmap/apex</item>
+        <item>@mipmap/atom</item>
+        <item>@mipmap/aviate</item>
+        <item>@mipmap/cm</item>
+        <item>@mipmap/epic</item>
+        <item>@mipmap/go</item>
+        <item>@mipmap/google</item>
+        <item>@mipmap/holo</item>
+        <item>@mipmap/holohd</item>
+        <item>@mipmap/inspire</item>
+        <item>@mipmap/kk</item>
+        <item>@mipmap/l</item>
+        <item>@mipmap/lg</item>
+        <item>@mipmap/lucid</item>
+        <item>@mipmap/mini</item>
+        <item>@mipmap/nemus</item>
+        <item>@mipmap/next</item>
+        <item>@mipmap/nine</item>
+        <item>@mipmap/nova</item>
+        <item>@mipmap/s</item>
+        <item>@mipmap/smart</item>
+        <item>@mipmap/smart</item>
+        <item>@mipmap/solo</item>
+        <item>@mipmap/tsf</item>
+    </array>
+    <string-array name="access">
+        <item>com.actionlauncher.playstore</item>
+        <item>org.adw.launcher</item>
+        <item>org.adwfreak.launcher</item>
+        <item>com.anddoes.launcher</item>
+        <item>com.dlto.atom.launcher</item>
+        <item>com.tul.aviate</item>
+        <item>org.cyanogenmod.theme.chooser</item>
+        <item>com.epic.launcher</item>
+        <item>com.gau.go.launcherex</item>
+        <item>com.google.android.launcher</item>
+        <item>com.mobint.hololauncher</item>
+        <item>com.mobint.hololauncher.hd</item>
+        <item>com.bam.android.inspirelauncher</item>
+        <item>com.kk.launcher</item>
+        <item>com.l.launcher</item>
+        <item>com.lge.launcher2</item>
+        <item>com.powerpoint45.launcher</item>
+        <item>com.jiubang.go.mini.launcher</item>
+        <item>com.nemustech.launcher</item>
+        <item>com.gtp.nextlauncher</item>
+        <item>com.gridappsinc.launcher.free</item>
+        <item>com.teslacoilsw.launcher</item>
+        <item>com.s.launcher</item>
+        <item>ginlemon.flowerfree</item>
+        <item>ginlemon.flowerpro</item>
+        <item>home.solo.launcher.free</item>
+        <item>com.tsf.shell</item>
+    </string-array>
+</resources>
