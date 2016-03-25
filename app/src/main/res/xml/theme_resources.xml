@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Theme version="1">
     <Label value="Comet" />
-    <!--<DockMenuAppIcon selector="dock_finger_blue" />-->
+    <DockMenuAppIcon selector="default_appdrawer_icon" />
 </Theme>
