@@ -1,3 +1,3 @@
 # Comet
 
-Hai
+Hai, im awesome
