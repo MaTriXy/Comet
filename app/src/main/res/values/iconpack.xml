@@ -60,7 +60,22 @@
         <item>default_twitter_icon</item>
         <item>default_whatsapp_icon</item>
         <item>default_xdapremium_icon</item>
-        <item>default_appname_icon</item>
+        <item>default_googletranslate_icon</item>
+        <item>default_streetview_icon</item>
+        <item>default_googleplaymovies&tv_icon</item>
+        <item>default_news&weather_icon</item>
+        <item>default_googlecamera_icon</item>
+        <item>default_androidwear_icon</item>
+        <item>default_androidpay_icon</item>
+        <item>default_downloads_icon</item>
+        <item>default_music_icon</item>
+        <item>default_souncloud_icon</item>
+        <item>default_slack_icon</item>
+        <item>default_skype_icon</item>
+        <item>default_novalauncher_icon</item>
+        <item>default_netflix_icon</item>
+        <item>default_ebay_icon</item>
+        <item>default_clashofclans_icon</item>
 
     </string-array>
 
