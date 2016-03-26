@@ -116,7 +116,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="188dp"
                         android:src="@android:color/transparent"
-                        android:scaleType="centerCrop" />
+                        android:scaleType="centerCrop"
+                        android:id="@+id/main_image"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -161,7 +162,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="188dp"
                         android:src="@android:color/transparent"
-                        android:scaleType="centerCrop" />
+                        android:scaleType="centerCrop"
+                        android:id="@+id/secondary_image"/>
 
                     <TextView
                         android:layout_width="match_parent"

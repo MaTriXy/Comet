@@ -6,6 +6,18 @@
 
     <string name="action_settings">Settings</string>
 
+    <string name="main_cover">http://briceronie.github.io/CometShowcaseCover.png</string>
+    <string name="drawer_cover">http://briceronie.github.io/CometShowcaseCover2.png</string>
+    <string name="icon_cover">http://briceronie.github.io/CometShowcaseCover.png</string>
+
+    <string-array name="wallpaper_names">
+
+    </string-array>
+
+    <string-array name="wallpapers">
+
+    </string-array>
+
     <string-array name="launchers">
         <item>Action Launcher</item>
         <item>ADW Launcher</item>
@@ -35,6 +47,7 @@
         <item>Solo Launcher</item>
         <item>TSF Launcher</item>
     </string-array>
+
     <array name="ids">
         <item>@mipmap/action</item>
         <item>@mipmap/adw</item>
@@ -64,6 +77,7 @@
         <item>@mipmap/solo</item>
         <item>@mipmap/tsf</item>
     </array>
+
     <string-array name="access">
         <item>com.actionlauncher.playstore</item>
         <item>org.adw.launcher</item>

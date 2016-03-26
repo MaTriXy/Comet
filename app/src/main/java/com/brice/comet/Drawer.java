@@ -1,6 +1,7 @@
 package com.brice.comet;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -8,23 +9,23 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.AdapterView;
 
-import com.mikepenz.google_material_typeface_library.GoogleMaterial;
+import com.bumptech.glide.Glide;
+import com.mikepenz.materialdrawer.AccountHeader;
+import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.DrawerBuilder;
-import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
-import com.mikepenz.materialdrawer.accountswitcher.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
+import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 
 public class Drawer {
+
     private AccountHeader getAccountHeader(AppCompatActivity activity, Bundle savedState) {
-        return new AccountHeaderBuilder()
+        AccountHeader header = new AccountHeaderBuilder()
                 .withActivity(activity)
                 .withCompactStyle(false)
-                //.withHeaderBackground(R.mipmap.drawer_background)
                 .withProfileImagesClickable(false)
                 .withSelectionListEnabledForSingleProfile(false)
                 .withSavedInstance(savedState)
@@ -32,6 +33,8 @@ public class Drawer {
                         new ProfileDrawerItem().withName(activity.getResources().getString(R.string.app_name)).withEmail("Version " + BuildConfig.VERSION_NAME).withIcon(new ColorDrawable(ContextCompat.getColor(activity, R.color.colorPrimary)))
                 )
                 .build();
+        Glide.with(activity).load(activity.getResources().getString(R.string.drawer_cover)).into(header.getHeaderBackgroundView());
+        return header;
     }
 
     public DrawerBuilder make(final AppCompatActivity activity, Bundle savedState) {
@@ -60,7 +63,6 @@ public class Drawer {
         return new DrawerBuilder()
                 .withActivity(activity)
                 .withTranslucentStatusBar(true)
-                .withStatusBarColorRes(R.color.colorPrimaryDark)
                 .withActionBarDrawerToggle(true)
                 .withAccountHeader(getAccountHeader(activity, savedState))
                 .withToolbar(toolbar)
@@ -76,7 +78,7 @@ public class Drawer {
                         )
                         .withOnDrawerItemClickListener(new com.mikepenz.materialdrawer.Drawer.OnDrawerItemClickListener() {
                             @Override
-                            public boolean onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
+                            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                                 Intent i = null;
                                 if (drawerItem.getIdentifier() == 1) {
                                     i = new Intent(activity, Home.class);

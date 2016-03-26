@@ -7,11 +7,12 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Wallpapers extends AppCompatActivity {
 
     ArrayList<String> names;
-    ArrayList<Integer> icons;
+    ArrayList<String> icons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,19 +25,11 @@ public class Wallpapers extends AppCompatActivity {
         names = new ArrayList<>();
         icons = new ArrayList<>();
 
-        Field[] drawables = R.drawable.class.getFields();
-        String[] iconses = getResources().getStringArray(R.array.wallpapers);
-        for (String icon : iconses) {
-            for (Field drawable : drawables) {
-                if (drawable.getName().contains(icon)) {
-                    String name = icon.replace("wallpaper_", "").replace("_", " ");
-                    name = Character.toString(name.charAt(0)).toUpperCase() + name.substring(1, name.length());
-                    names.add(name);
-                    icons.add(getResources().getIdentifier(drawable.getName(), "drawable", R.drawable.class.getPackage().getName()));
-                    break;
-                }
-            }
-        }
+        String[] titles = getResources().getStringArray(R.array.wallpaper_names);
+        String[] urls = getResources().getStringArray(R.array.wallpapers);
+
+        Collections.addAll(names, titles);
+        Collections.addAll(icons, urls);
 
         RecyclerView rv = (RecyclerView) findViewById(R.id.rv);
         rv.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
