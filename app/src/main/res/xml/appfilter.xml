@@ -3,17 +3,17 @@
     <!--<iconback img1="iconback" />-->
     <scale factor="1.0" />
 
-    <!--<item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="dock_finger_blue" />
-    <item component=":BROWSER" drawable="browser" />
-    <item component=":SMS" drawable="google_hangouts" />
-    <item component=":CALCULATOR" drawable="" />
-    <item component=":CALENDAR" drawable="" />
-    <item component=":CAMERA" drawable="google_camera" />
-    <item component=":CLOCK" drawable="" />
-    <item component=":CONTACTS" drawable="contacts" />
-    <item component=":EMAIL" drawable="" />
-    <item component=":GALLERY" drawable="gallery" />
-    <item component=":PHONE" drawable="dialer_blue" />-->
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="default_appdrawer_icon" />
+    <item component=":BROWSER" drawable="default_browser_icon" />
+    <item component=":SMS" drawable="default_messenging_icon" />
+    <item component=":CALCULATOR" drawable="default_calculator_icon" />
+    <item component=":CALENDAR" drawable="default_calendar_icon" />
+    <item component=":CAMERA" drawable="default_camera_icon" />
+    <item component=":CLOCK" drawable="default_clock_icon" />
+    <item component=":CONTACTS" drawable="default_contacts_icon" />
+    <item component=":EMAIL" drawable="default_gmail_icon" />
+    <item component=":GALLERY" drawable="default_gallery_icon" />
+    <item component=":PHONE" drawable="default_phone_icon" />-->
 
     <!-- App -->
     <!--<item component="ComponentInfo{com.brice.rabbitcons/com.brice.comet.MainActivity" drawable="ic_launcher" />-->
