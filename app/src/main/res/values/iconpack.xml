@@ -40,6 +40,27 @@
         <item>default_camera_icon</item>
         <item>default_messaging_icon</item>
         <item>default_phone_icon</item>
+        <item>default_colorswitch_icon</item>
+        <item>default_facebook_icon</item>
+        <item>default_filebrowser_icon</item>
+        <item>default_firefox_icon</item>
+        <item>default_ifunny_icon</item>
+        <item>default_instagram_icon</item>
+        <item>default_juicesshclient_icon</item>
+        <item>default_kernalauditor_icon</item>
+        <item>default_kik_icon</item>
+        <item>default_messenger_icon</item>
+        <item>default_perfmon_icon</item>
+        <item>default_pocketcast_icon</item>
+        <item>default_reddit_icon</item>
+        <item>default_snapchat_icon</item>
+        <item>default_spotify_icon</item>
+        <item>default_squarecash_icon</item>
+        <item>default_talonfortwitter_icon</item>
+        <item>default_telegram_icon</item>
+        <item>default_twitter_icon</item>
+        <item>default_whatsapp_icon</item>
+        <item>default_xdapremium_icon</item>
 
     </string-array>
 
