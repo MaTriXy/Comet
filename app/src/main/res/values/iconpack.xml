@@ -2,7 +2,32 @@
 <resources>
 
     <string-array name="icon_pack" translatable="false">
-        <!-- <item>icon_name</item> -->
+        <item>default_googleplus_icon</item>
+        <item>default_snapseed_icon</item>
+        <item>default_googleapp_icon</item>
+        <item>default_chrome_icon</item>
+        <item>default_chromedev_icon</item>
+        <item>default_youtube_icon</item>
+        <item>default_googlemaps_icon</item>
+        <item>default_googlekeep_icon</item>
+        <item>default_googleplaymusic_icon</item>
+        <item>default_googleplaygames_icon</item>
+        <item>default_googleplay_icon</item>
+        <item>default_googlenowlauncher_icon</item>
+        <item>default_gmail_icon</item>
+        <item>default_googleearth_icon</item>
+        <item>default_hangouts_icon</item>
+        <item>default_googlecalendar_icon</item>
+        <item>default_googlephotos_icon</item>
+        <item>default_googleplaynewsstand_icon</item>
+        <item>default_googlebooks_icon</item>
+        <item>default_googledrive_icon</item>
+        <item>default_googlekeep_icon</item>
+        <item>default_googleslides_icon</item>
+        <item>default_googlesheets_icon</item>
+        <item>default_googledocs_icon</item>
+        <item>default_googlekeyboard_icon</item>
+        <item>default_googleopnionrewards_icon</item>
 
     </string-array>
 
