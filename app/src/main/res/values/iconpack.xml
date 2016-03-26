@@ -62,8 +62,8 @@
         <item>default_xdapremium_icon</item>
         <item>default_googletranslate_icon</item>
         <item>default_streetview_icon</item>
-        <item>default_googleplaymovies&tv_icon</item>
-        <item>default_news&weather_icon</item>
+        <item>default_googleplaymoviesandtv_icon</item>
+        <item>default_newsandweather_icon</item>
         <item>default_googlecamera_icon</item>
         <item>default_androidwear_icon</item>
         <item>default_androidpay_icon</item>
