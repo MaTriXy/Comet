@@ -234,7 +234,11 @@
     <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.CallLogShortcut}" drawable="default_phone_icon" />
     <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="default_phone_icon" />
     <item component="ComponentInfo{com.google.android.apps.hangoutsdialer/com.android.apps.hangoutsdialer.app.LaunchActivity}" drawable="default_phone_icon" />
-
+ 
+ <!-- Facebook -->
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="default_facebook_icon" />
+    <item component="ComponentInfo{com.amazon.kindle.facebook/com.amazon.kindle.facebook.FacebookWebappActivity}" drawable="default_facebook_icon" />
+    <item component="ComponentInfo{com.nook.fbwrapper/com.nook.fbwrapper.NookFBMain}" drawable="default_facebook_icon" />
 
 
 
@@ -258,9 +262,6 @@
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome" />
     <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="chrome" />-->
 
-    <!-- Facebook -->
-    <!--<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="facebook" />
-    <item component="ComponentInfo{com.amazon.kindle.facebook/com.amazon.kindle.facebook.FacebookWebappActivity}" drawable="facebook" />
-    <item component="ComponentInfo{com.nook.fbwrapper/com.nook.fbwrapper.NookFBMain}" drawable="facebook" />-->
+    
 
 </resources>
