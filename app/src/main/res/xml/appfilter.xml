@@ -14,6 +14,31 @@
     <item component=":EMAIL" drawable="default_email_icon" />
     <item component=":GALLERY" drawable="default_gallery_icon" />
     <item component=":PHONE" drawable="default_phone_icon" />-->
+   
+   
+    <item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity" drawable="default_browser_icon" />
+    <item component="ComponentInfo{com.motorola.Camera/com.motorola.Camera.Camera}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraEntry}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.google.android.camera/com.android.camera.Camera}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="default_googlecamera_icon" />
+
+<!-- Does the top or the bottom look better? -->
+
+<item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}"
+	drawable="default_music_icon" />
+<item component="ComponentInfo{com.htc.music/com.htc.music.HtcMusic}"
+	drawable="default_music_icon" />
+<item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.list.activity.MpMainTabActivity}"
+	drawable="default_music_icon" />
+<item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}"
+	drawable="default_music_icon" />
+<item component="ComponentInfo{com.android.music/com.android.music.list.activity.MpMainTabActivity}"
+	drawable="default_music_icon" />	
+
+
+
 
     <!-- App -->
     <!--<item component="ComponentInfo{com.brice.rabbitcons/com.brice.comet.MainActivity" drawable="ic_launcher" />-->
