@@ -282,14 +282,471 @@
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
     <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
     
+    <!-- Clock -->
+    <item component="ComponentInfo{com.android.deskclock/com.agold.deskclocks.AgoldFragmentTabs}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.clock.Clock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.DeskClock.ClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.ClockPackage}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.countdown}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockUtils}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.InitTab}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.Main}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.MainActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.MultiClockTab}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.newtime.NewTimeActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.SlidingAlarmClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.stopwatch}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.StopWatchActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.TimesTabActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.worldclock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.WorldClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.main.TabsActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.worldclock.TYClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.hisense.timetools.TimeToolsMainActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.jrdcom.timetool.TimeToolActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.klinker.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.maxlogix.clock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.pantech.app.clock.ClockLauncher}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/yulong.xtime.ui.main.XTimeActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lenovo.deskclock/com.android.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lenovo.deskclock/com.lenovo.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer_StopWatch}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer_Timer}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer_WorldClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.alarmclock/com.android.deskclock.AlarmClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockGroupActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.TabDetails}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.htc.android.worldclock/com.htc.android.worldclock.NightClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.htc.android.worldclock/com.htc.android.worldclock.WorldClockTabControl}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lge.clock/com.lge.clock.Clock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.motorola.blur.alarmclock/com.motorola.blur.alarmclock.AlarmClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.cyanogenmod.lockclock/com.cyanogenmod.lockclock.preference.Preferences}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmsMainActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockMainActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lge.clock/com.lge.clock.AlarmClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lge.clock/com.lge.clock.DefaultAlarmClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lge.clock/com.lge.clock.ATTAlarmClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lge.clock/com.lge.clock.TCLAlarmClockActivity}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.moblynx.clockjbplus/com.android.deskclock.DeskClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lenovo.deskclock/com.lenovo.clock.Clock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.lenovomobile.deskclock/com.lenovomobile.clock.Clock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.android.alarmclock/com.meizu.flyme.alarmclock.AlarmClock}" drawable="default_clock_icon" />
+    <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="default_clock_icon" />
+
+    <!-- Downloads -->
+    <item component="ComponentInfo{com.app.downloadmanager/com.downloaderlibrary.views.Home}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.GnDownloadTabActivity}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadsListTab}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadTabActivity}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.app.downloadmanager/com.app.downloadmanager.views.EntryPointActivity}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.download/com.sec.android.app.latin.launcher.download.Launcher}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadPagerActivity}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{it.opbyte.superdownload/it.opbyte.superdownload.MainActivity}" drawable="default_downloads_icon" />
+    <item component="ComponentInfo{com.app.downloadmanager/com.app.downloadmanager.views.Home}" drawable="default_downloads_icon" />
+
+ <!-- Dropbox -->
+    <item component="ComponentInfo{com.jb.gosms.brdropbox/com.jb.gosms.brdropbox.DropboxStartActivity}" drawable="default_dropbox_icon" />
+    <item component="ComponentInfo{org.freespirit.dbv/org.freespirit.dbv.DropBoxListActivity}" drawable="default_dropbox_icon" />
+    <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}" drawable="default_dropbox_icon" />
+
+<!-- Email -->
+    <item component="ComponentInfo{com.htc.android.mail/com.htc.android.mail.telcel.TelCelMailEntry}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.lge.email/com.lge.email.activity.AccountList}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.lge.email/com.lge.email.activity.ActEmailStarter}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.lge.email/com.lge.email.activity.ActMain}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.htc.android.mail/com.htc.android.mail.MultipleActivitiesMain}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.motorola.blur.email/com.motorola.blur.email.mailbox.MailListActivity}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.motorola.blur.email/com.motorola.blur.email.mailbox.ViewFolderActivity}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.sonyericsson.email/com.sonyericsson.email.ui.Main}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.motorola.motoemail/com.android.email.activity.Welcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.google.android.email/com.android.email.activity.Welcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.lge.email/com.lge.email.ui.setupwizard.Welcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.email/com.sec.android.app.latin.launcher.email.Launcher}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.lenovo.email/com.android.email.activity.Welcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.motorola.email/com.android.email.activity.Welcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.EmailActivity}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.EmailAppSelect}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.IphoneWelcome}" drawable="default_email_icon" />
+    <item component="ComponentInfo{com.asus.email/com.android.email.activity.Welcome}" drawable="default_email_icon" />
+
+ <!-- Evernote -->
+    <item component="ComponentInfo{com.evernote.world/com.evernote.ui.HomeActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.boatbrowser.free.addon.en/com.boatbrowser.enclipper.pro.MainActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.dolphin.addons.evernotesshare/com.mobi.mgeek.evernote.ui.MainActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.dolphin.browser.addons.evernoteshare/com.mobi.mgeek.evernote.ui.DownloadActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.jiubang.browser.evernote/com.jiubang.browser.addon.NextBrowserInstallDialog}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.evernote.hello/com.evernote.hello.HomeActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.evernote.food/com.evernote.food.FoodActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.evernote.widget/com.evernote.widget.dialog.WidgetAppInfoDialogActivity}" drawable="default_evernote_icon" />
+    <!--
+    <item component="ComponentInfo{com.evernote.skitch/com.evernote.skitch.app.SkitchHomeBaseActivity}" drawable="default_evernote_icon" />
+    <item component="ComponentInfo{com.evernote.skitch/com.evernote.skitch.app.SwipeNavActivity}" drawable="default_evernote_icon" />
+    -->
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="default_evernote_icon" />
+    
+ <!-- FB Messenger -->
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="default_messenger_icon" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="default_messenger_icon" />
+    <item component="ComponentInfo{com.htc.facebookchat/com.htc.facebookchat.app.FacebookChatSwitchActivity}" drawable="default_messenger_icon" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.MainActivity}" drawable="default_messenger_icon" />
+
  <!-- Facebook -->
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="default_facebook_icon" />
     <item component="ComponentInfo{com.amazon.kindle.facebook/com.amazon.kindle.facebook.FacebookWebappActivity}" drawable="default_facebook_icon" />
     <item component="ComponentInfo{com.nook.fbwrapper/com.nook.fbwrapper.NookFBMain}" drawable="default_facebook_icon" />
 
+<!-- File Manager -->
+    <item component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.ClassifyFileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.filemanager.FileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.activities.BrowseActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.MainActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileExplorerTabActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerLauncherActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.tinnoui.TinnoUIFileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.tinnoui.TinnoUIViewPager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.TwFileOperationActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerTabActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager2.activity.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.activity.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.motorola.FileManager/com.motorola.FileManager.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.MainFileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.FileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.rhmsoft.fm/com.rhmsoft.fm.FileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FilerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerFragment}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.QRDFileExplorer}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.softwinner.explore/com.softwinner.explore.Main}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mhoffs.filemanager/com.mhoffs.filemanager.AMain}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{cDHQ.FileManagerForAndroid/DHQ.FileManagerForAndroid.Splash}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.sand.file/com.sand.file.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{android.dopod.FileManager/android.dopod.FileManager.dopodFileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.lewa.filemanager/com.lewa.filemanager.FileManagerMainActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileBrowser}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.Main}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.mobisystems.fileman/com.mobisystems.office.FileBrowser}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{fm.clean/fm.clean.MainActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowserActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowser}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.textedit.TextEditorActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.htc.htccnfilemanager/com.htc.htccnfilemanager.htccnFileManager}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.GnBootActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileManagerMainActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.Main}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.rhmsoft.fm.hd/com.rhmsoft.fm.hd.FileManagerHD}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.htc.filemanager/com.htc.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}" drawable="default_filebrowser_icon" />
+
+<!-- Firefox -->
+    <item component="ComponentInfo{cn.mozilla.firefox/cn.mozilla.firefox.App}" drawable="default_firefox_icon" />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="default_firefox_icon" />
+    <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="default_firefox_icon" />
+    
+<!-- Gallery -->
+    <item component="ComponentInfo{com.android.gallery/com.alensw.PicFolder.GalleryActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.android.gallery/com.android.camera.ConversationStarterActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.android.camera.GalleryPicker}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.cooliris.media.VideoActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.sec.android.gallery3d.app.MediaFlow}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryOpaqueActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.android.gallery/com.android.camera.GalleryPicker}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.android.gallery/com.android.gallery.ui.MainActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.android.sec.gallery3d/com.android.sec.gallery3d.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.google.android.gallery3d/com.cooliris.media.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.google.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.cooliris.media.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.cooliris.media.GalleryForVideo}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.cooliris.media.VideoStubActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.tapntap.photos.PhotosActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.cooliris.media/com.tapntap.videos.VideosActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainCarousel}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainDropList}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.htc.album/com.htc.album.AlbumTabSwitchActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.motorola.blurgallery/com.motorola.cgallery.Dashboard}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.motorola.gallery/com.motorola.gallery.LaunchActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.motorola.gallery/com.motorola.gallery.TopScreen}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.motorola.motgallery/com.motorola.cgallery.Dashboard}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.motorola.MotGallery2/com.android.gallery3d.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.motorola.MotGallery2/com.android.gallery3d.app.GalleryActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.sonyericsson.gallery/com.sonyericsson.gallery.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.sonyericsson.album/com.sonyericsson.album.MainActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.gallery/com.sec.android.app.latin.launcher.gallery.Launcher}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.oppo.gallery3d/com.oppo.gallery3d.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.gmail.kdjsoftware.gallerypro.media/com.gmail.kdjsoftware.gallerypro.media.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.htc.album/com.htc.album.CollectionsActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{royalw.application.photo/royalw.application.photo.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainTabHost}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.lenovo.scg/com.lenovo.scg.app.Gallery}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.oppo.gallery3d/com.oppo.camera.Camera}" drawable="default_gallery_icon" />
+    <item component="ComponentInfo{com.asus.gallery/com.asus.gallery.app.EPhotoActivity}" drawable="default_gallery_icon" />
+
+<!-- Gmail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="default_gmail_icon" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="default_gmail_icon" />
+
+<!-- Google Calendar -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.tasks.TasksActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthUI}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.LauncherActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.SplashActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.LaunchActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.activity.CalendarActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.JumpActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivityNew}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.asus.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarActivityMain}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.TabManagerActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.motorola.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.kfactormedia.mycalendarmobile/com.kfactormedia.mycalendarmobile.MyCalendarActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.codesector.calendar/com.codesector.calendar.CalendarActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarCarouselActivity}" drawable="default_googlecalendar_icon" />
+   
+<!-- Google Docs -->
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googledocs_icon" />
+
+<!-- Google Drive -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googledrive_icon" />
+
+<!-- Google Earth -->
+    <item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="default_googleearth_icon" />
+    <item component="ComponentInfo{com.google.earth/com.google.earth.MainActivity}" drawable="default_googleearth_icon" />
+
+<!-- Google Fit -->
+    <!--item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="default_googlefit_icon" /-->
+
+<!-- Google Keep -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="default_googlekeep_icon" />
+
+<!-- Google Maps -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="default_googlemaps_icon" />
+    <item component="ComponentInfo{com.google.android.street/com.google.android.apps.dragonfly.activities.main.MainActivity}" drawable="default_googlemaps_icon" />
+
+<!-- Google Now Launcher -->
+    <item component="ComponentInfo{com.google.android.launcher/com.google.android.launcher.StubApp}" drawable="default_googlenowlauncher_icon" />
+
+<!-- Google Photos -->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="default_googlephotos_icon" />
+
+<!-- Google Play Books -->
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="default_googlebooks_icon" />
+
+<!-- Google Play Games -->
+    <item component="ComponentInfo{com.google.android.play.games/com.android.gms.games.ui.destination.main.MainActivity}" drawable="default_googleplaygames_icon" />
+
+<!-- Google Play Movies -->
+    <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="default_googleplaymoviesandtv_icon" />
+
+<!-- Google Play Music -->
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="default_googleplaymusic_icon" />
+
+<!-- Google Play Newsstand -->
+    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="default_googleplaynewsstand" />
+
+<!-- Google Plus -->
+    <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="default_googleplus_icon" />
+
+<!-- Google Search -->
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="default_googleapp_icon" />
+
+<!-- Google Sheets -->
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googlesheets_icon" />
+
+<!-- Google Slides -->
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googleslides_icon" />
+
+<!-- Google Translate -->
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivity}" drawable="default_googletranslate_icon" />
+    <item component="ComponentInfo{net.trans.droid.translatefr/net.trans.droid.translatefr.TranslateActivity}" drawable="default_googletranslate_icon" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="default_googletranslate_icon" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivityHUI}" drawable="default_googletranslate_icon" />
+
+<!-- Hangouts -->
+    <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="default_hangouts_icon" />
+
+<!-- Instagram -->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="default_instagram_icon" />
+
+<!-- Messaging -->
+    <item component="ComponentInfo{com.motorola.messaging/com.motorola.messaging.activity.ConversationListActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.sec.mms/com.sec.mms.Mms}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.att.android.mobile.attmessages/com.att.ui.screen.ConversationListScreen}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.motorola.messaging/com.android.mms.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.BootActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.message/com.sec.android.app.latin.launcher.message.Launcher}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.LaunchActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.EntryActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.traditional.MessageLaunchActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.dreambig.stockmmswithgv/com.dreambig.stockmmswithgv.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.lge.message/com.lge.message.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.lenovo.ideafriend/com.lenovo.ideafriend.alias.MmsActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.htc.sense.mms/com.htc.sense.mms.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.htc.sense.mms/com.htc.sense.mms.ui.MessageTabActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.ahong.base.AhongMmsMain}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.cellon.CellonMainTraditional}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.CmasListActivityShortCut}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.Conversationlistpage}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationStarterActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.FunctionSwitchActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MailboxMode.ModeChooser}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MainUISelectionActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MessagesActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MmsActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ModeChooser}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.aurora.mms.ui.AuroraConvListActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.yulong.android.mms.ui.MmsMainListFormActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.lge.message/com.mplus.lib.ui.main.Main}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.motorola.messaging/com.motorola.messaging.activity.MessagingActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.asus.message/com.android.mms.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.MainUISelection}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.MultipleActivitiesMain}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MainLayerTabSwitchActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MessageTabActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MmsTabActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ModeActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.UiController}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ViewControllerActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.VissageActivity}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.mms.ics.ext/com.mms.ics.ext.ui.ConversationList}" drawable="default_messaging_icon" />
+    <item component="ComponentInfo{com.motorola.blur.conversations/com.motorola.blur.conversations.ui.ConversationList}" drawable="default_messaging_icon" />
+    
+<!-- Netflix -->
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity}" drawable="default_netflix_icon" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}" drawable="default_netflix_icon" />
+
+<!-- News & Weather -->
+    <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="default_newsandweather_icon" />
+
+ <!-- Play Games -->
+    <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="default_googleplaygames_icon" />
+
+<!-- Play Store -->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="default_googleplay_icon" />
+    <item component="ComponentInfo{com.google.android.finsky/com.google.android.finsky.activities.MainActivity}" drawable="default_googleplay_icon" />
+    <item component="ComponentInfo{com.gau.diy.recomendcenter/com.jiubang.intent.aciton_FUNC_RECOMMENDCENTER}" drawable="default_googleplay_icon" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.MainActivity}" drawable="default_googleplay_icon" />
+
+<!-- Settings -->
+    <item component="ComponentInfo{com.advancedprocessmanager/com.advancedprocessmanager.MyActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.framework.activity.HtcSettings}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.bwx.bequick/com.bwx.bequick.ShowSettingsActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.canvs2321.absolute.system/com.canvs2321.absolute.system.absolute_system}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.masturmods.settings/com.masturmods.settings.MasturModsSettingsActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{jqsoft.apps.mysettings/jqsoft.apps.mysettings.MySettings}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{org.canvs2321.absolute.system/org.canvs2321.absolute.system.absolute_system}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.lidroid.quickpanel/com.lidroid.quickpanel.MainActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.development/com.android.development.Development}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.MiuiSettings}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.SettingsTabActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.settings/com.sec.android.app.latin.launcher.settings.Launcher}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{net.suckga.iSettings/net.suckga.iSettings.MainActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.easyandroid.free.hisettings/com.easyandroid.free.hisettings.SettingActivity}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.SettingsEMUI}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.LewaSettings}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings_Root}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.GridSettings}" drawable="default_settings_icon" />
+    <item component="ComponentInfo{com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity}" drawable="default_settings_icon" />
+
+<!-- Snapchat -->
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="default_snapchat_icon" />
+
+<!-- Snapseed -->
+    <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity}" drawable="default_snapseed_icon" />
+
+<!-- Sound Cloud -->
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Launch}" drawable="default_soundcloud_icon" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="default_soundcloud_icon" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Dashboard}" drawable="default_soundcloud_icon" />
+
+<!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}" drawable="default_spotify_icon" />
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher}" drawable="default_spotify_icon" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="default_spotify_icon" />
+
+<!-- Twitter -->
+    <item component="ComponentInfo{com.lge.sns/com.lge.sns.client.account.facebook.LoginFacebookView}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.lge.sns/com.lge.sns.client.account.myspace.LoginMyspaceView}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.twitter.android/com.example.nm.TwitterLauncherMainActivity}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.MainActivity}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.htc.htctwitter/com.htc.htctwitter.TwidroidSplash}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.lge.sns/com.lge.sns.client.account.twitter.LoginTwitterView}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.pantech.app.twitter/com.pantech.app.twitter.activity.snsTabMain}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.pantech.app.twitter/com.pantech.app.twitter.twitter}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.LoginActivity}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.twitter.browser/com.twitter.browser.Twitter}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{getjar.mss.twitter/getjar.mss.twitter.Twitter}" drawable="default_twitter_icon" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.applib.StartActivity}" drawable="default_twitter_icon" />
+
+<!-- Whatsapp -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-01}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-02}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-03}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-04}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-05}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-06}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-07}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-08}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-09}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Plus}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-10}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-13}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-11}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-12}" drawable="default_whatsapp_icon" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-14}" drawable="default_whatsapp_icon" />
 
 
-    <!-- App -->
+<!-- App -->
     <!--<item component="ComponentInfo{com.brice.rabbitcons/com.brice.comet.MainActivity" drawable="ic_launcher" />-->
 
     
