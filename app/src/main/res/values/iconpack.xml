@@ -60,6 +60,7 @@
         <item>default_twitter_icon</item>
         <item>default_whatsapp_icon</item>
         <item>default_xdapremium_icon</item>
+        <item>default_appname_icon</item>
 
     </string-array>
 
