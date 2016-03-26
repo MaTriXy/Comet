@@ -76,6 +76,12 @@
         <item>default_netflix_icon</item>
         <item>default_ebay_icon</item>
         <item>default_clashofclans_icon</item>
+        <item>default_amazon_icon</item>
+        <item>default_beyondpod_icon</item>
+        <item>default_forzafootball_icon</item>
+        <item>default_imgur_icon</item>
+        <item>default_tapatalk_icon</item>
+        <item>default_tvseries_icon</item>
 
     </string-array>
 
