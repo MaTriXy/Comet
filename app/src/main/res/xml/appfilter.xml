@@ -235,6 +235,53 @@
     <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="default_phone_icon" />
     <item component="ComponentInfo{com.google.android.apps.hangoutsdialer/com.android.apps.hangoutsdialer.app.LaunchActivity}" drawable="default_phone_icon" />
  
+ <!-- Amazon -->
+    <item component="ComponentInfo{com.amazon.venezia/com.amazon.venezia.web.WebViewActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{de.amazon.mShop.android/com.amazon.mShop.android.home.HomeActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{com.amazon.venezia/com.amazon.venezia.Venezia}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{com.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{de.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{fr.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{uk.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{com.amazon.windowshop/com.amazon.windowshop.home.HomeLauncherActivity}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{com.pure.amazon/com.pure.amazon.URL}" drawable="default_amazon_icon" />
+    <item component="ComponentInfo{preload.amazon.mshop.android/com.amazon.mShop.home.HomeActivity}" drawable="default_amazon_icon" />
+
+<!-- Calculator -->
+    <item component="ComponentInfo{com.pantech.app.skyengcalculator/com.pantech.app.calculator.SkyEngCalculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android2.calculator3/com.android2.calculator3.Calculator-Light}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{mobi.appplus.calculator.plus/appplus.mobi.calcflat.MainActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{org.solovyev.android.calculator/org.solovyev.android.calculator.CalculatorActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.visionobjects.calculator/com.visionobjects.calculato.NotesMobileActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.visionobjects.calculator/com.visionobjects.calculator.NotesMobileActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.AdvancedCalulator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.AsxCalculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Light}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.pantech.app.skyengcalculator/com.pantech.app.skyengcalculator.SkyEngCalculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.CalculatorActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.sec.android.app.calculator/com.sec.android.app.calculator.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{uk.co.nickfines.RealCalc/uk.co.nickfines.RealCalc.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{uk.co.nickfines.RealCalcPlus/uk.co.nickfines.RealCalcPlus.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{org.mmin.handycalc/org.mmin.handycalc.HandyCalc}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.visionobjects.calculator/com.visionobjects.calculator.activity.MainActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{home.jmstudios.calc/home.jmstudios.calc.Main}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android2.calculator3/com.android2.calculator3.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.hi.applock.disguise/com.hi.applock.disguise.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.pantech.app.pcalculator/com.pantech.app.pcalculator.PCalculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Dark}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.android2.calculator3/com.android2.calculator3.Calculator-Dark}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.candl.athena/com.candl.athena.activity.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{my.android.procalc/my.android.procalc.MainActivity}" drawable="default_calculator_icon" />
+    <item component="ComponentInfo{com.htc.calculator/com.htc.calculator.Calculator}" drawable="default_calculator_icon" />
+ 
+ <!-- Chrome -->
+    <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="default_chrome_icon" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
+    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
+    
  <!-- Facebook -->
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="default_facebook_icon" />
     <item component="ComponentInfo{com.amazon.kindle.facebook/com.amazon.kindle.facebook.FacebookWebappActivity}" drawable="default_facebook_icon" />
@@ -245,22 +292,7 @@
     <!-- App -->
     <!--<item component="ComponentInfo{com.brice.rabbitcons/com.brice.comet.MainActivity" drawable="ic_launcher" />-->
 
-    <!-- Amazon -->
-    <!--<item component="ComponentInfo{com.amazon.venezia/com.amazon.venezia.web.WebViewActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{de.amazon.mShop.android/com.amazon.mShop.android.home.HomeActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{com.amazon.venezia/com.amazon.venezia.Venezia}" drawable="amazon_apps" />
-    <item component="ComponentInfo{com.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{de.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{fr.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{uk.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{com.amazon.windowshop/com.amazon.windowshop.home.HomeLauncherActivity}" drawable="amazon_apps" />
-    <item component="ComponentInfo{com.pure.amazon/com.pure.amazon.URL}" drawable="amazon_apps" />
-    <item component="ComponentInfo{preload.amazon.mshop.android/com.amazon.mShop.home.HomeActivity}" drawable="amazon_apps" />-->
-
-    <!-- Chrome -->
-    <!--<item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="chrome" />
-    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome" />
-    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="chrome" />-->
+    
 
     
 
