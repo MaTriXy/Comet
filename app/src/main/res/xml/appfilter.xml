@@ -282,7 +282,7 @@
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
     <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
     
-    <!-- Clock -->
+<!-- Clock -->
     <item component="ComponentInfo{com.android.deskclock/com.agold.deskclocks.AgoldFragmentTabs}" drawable="default_clock_icon" />
     <item component="ComponentInfo{com.android.deskclock/com.android.clock.Clock}" drawable="default_clock_icon" />
     <item component="ComponentInfo{com.android.deskclock/com.android.DeskClock.ClockActivity}" drawable="default_clock_icon" />
@@ -342,7 +342,7 @@
     <item component="ComponentInfo{com.android.alarmclock/com.meizu.flyme.alarmclock.AlarmClock}" drawable="default_clock_icon" />
     <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="default_clock_icon" />
 
-    <!-- Downloads -->
+<!-- Downloads -->
     <item component="ComponentInfo{com.app.downloadmanager/com.downloaderlibrary.views.Home}" drawable="default_downloads_icon" />
     <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.GnDownloadTabActivity}" drawable="default_downloads_icon" />
     <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="default_downloads_icon" />
@@ -354,7 +354,7 @@
     <item component="ComponentInfo{it.opbyte.superdownload/it.opbyte.superdownload.MainActivity}" drawable="default_downloads_icon" />
     <item component="ComponentInfo{com.app.downloadmanager/com.app.downloadmanager.views.Home}" drawable="default_downloads_icon" />
 
- <!-- Dropbox -->
+<!-- Dropbox -->
     <item component="ComponentInfo{com.jb.gosms.brdropbox/com.jb.gosms.brdropbox.DropboxStartActivity}" drawable="default_dropbox_icon" />
     <item component="ComponentInfo{org.freespirit.dbv/org.freespirit.dbv.DropBoxListActivity}" drawable="default_dropbox_icon" />
     <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}" drawable="default_dropbox_icon" />
@@ -380,7 +380,7 @@
     <item component="ComponentInfo{com.android.email/com.android.email.activity.IphoneWelcome}" drawable="default_email_icon" />
     <item component="ComponentInfo{com.asus.email/com.android.email.activity.Welcome}" drawable="default_email_icon" />
 
- <!-- Evernote -->
+<!-- Evernote -->
     <item component="ComponentInfo{com.evernote.world/com.evernote.ui.HomeActivity}" drawable="default_evernote_icon" />
     <item component="ComponentInfo{com.boatbrowser.free.addon.en/com.boatbrowser.enclipper.pro.MainActivity}" drawable="default_evernote_icon" />
     <item component="ComponentInfo{com.dolphin.addons.evernotesshare/com.mobi.mgeek.evernote.ui.MainActivity}" drawable="default_evernote_icon" />
@@ -395,13 +395,13 @@
     -->
     <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="default_evernote_icon" />
     
- <!-- FB Messenger -->
+<!-- FB Messenger -->
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="default_messenger_icon" />
     <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="default_messenger_icon" />
     <item component="ComponentInfo{com.htc.facebookchat/com.htc.facebookchat.app.FacebookChatSwitchActivity}" drawable="default_messenger_icon" />
     <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.MainActivity}" drawable="default_messenger_icon" />
 
- <!-- Facebook -->
+<!-- Facebook -->
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="default_facebook_icon" />
     <item component="ComponentInfo{com.amazon.kindle.facebook/com.amazon.kindle.facebook.FacebookWebappActivity}" drawable="default_facebook_icon" />
     <item component="ComponentInfo{com.nook.fbwrapper/com.nook.fbwrapper.NookFBMain}" drawable="default_facebook_icon" />
