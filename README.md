@@ -1,6 +1,6 @@
 # Comet
 
-This is Comet. A new, free to use Icon Pack developed by James Fenna and designed by Brice Seibert. 
+This is Comet. A new, free to use Icon Pack developed by James Fenn and designed by Brice Seibert. 
 
 Thanks for taking a look. 
 
