@@ -102,11 +102,12 @@ public class IconsAdapter extends SectionedRecyclerViewAdapter<IconsAdapter.View
         bundle.putInt("section", section);
         bundle.putInt("relative", relative);
         image.setTag(bundle);
+        image.setTag(0, section);
+        image.setTag(1, relative);
         image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Bundle bundle = (Bundle) v.getTag();
-                int section = bundle.getInt("section"), relative = bundle.getInt("relative");
+                int section = (int) v.getTag(0), relative = (int) v.getTag(1);
                 try {
                     image2.setImageResource(icon_icons.get(section).get(relative));
                 } catch (Exception e) {

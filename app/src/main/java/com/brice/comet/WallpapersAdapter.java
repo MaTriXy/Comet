@@ -2,11 +2,7 @@ package com.brice.comet;
 
 import android.app.Activity;
 import android.app.WallpaperManager;
-import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.TransitionDrawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,8 +13,9 @@ import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.animation.GlideAnimation;
+import com.bumptech.glide.request.target.SimpleTarget;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class WallpapersAdapter extends RecyclerView.Adapter<WallpapersAdapter.ViewHolder> {
@@ -56,23 +53,32 @@ public static class ViewHolder extends RecyclerView.ViewHolder {
         holder.v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-                View wall = LayoutInflater.from(v.getContext()).inflate(R.layout.wall_item, null).findViewById(R.id.wall);
-                ((SquareImageView)wall).setImageBitmap((Bitmap) v.getTag());
+                ImageView wall = (ImageView) LayoutInflater.from(v.getContext()).inflate(R.layout.wall_item, null).findViewById(R.id.wall);
+
+                Glide.with(activity).load(mThumbs.get(holder.getAdapterPosition())).centerCrop().into(wall);
 
                 new MaterialDialog.Builder(activity)
                         .callback(new MaterialDialog.ButtonCallback() {
                             @Override
                             public void onPositive(MaterialDialog dialog) {
                                 super.onPositive(dialog);
-                                    /*boolean set = true;
-                                    WallpaperManager myWallpaperManager = WallpaperManager.getInstance(activity);
-                                    try {
-                                        myWallpaperManager.setResource(mThumbs.get(clicked));
-                                    } catch (IOException e) {
-                                        set = false;
-                                        Toast.makeText(dialog.getContext(), "Wallpaper not set :(", Toast.LENGTH_SHORT).show();
+
+                                Glide.with(activity).load(mThumbs.get(holder.getAdapterPosition())).asBitmap().into(new SimpleTarget<Bitmap>() {
+                                    @Override
+                                    public void onResourceReady(Bitmap resource, GlideAnimation glideAnimation) {
+                                        WallpaperManager myWallpaperManager = WallpaperManager.getInstance(activity);
+
+                                        try {
+                                            myWallpaperManager.setBitmap(resource);
+                                        } catch (Exception e) {
+                                            e.printStackTrace();
+                                            Toast.makeText(activity, "Wallpaper not set :(", Toast.LENGTH_SHORT).show();
+                                            return;
+                                        }
+
+                                        Toast.makeText(activity, "Wallpaper set!", Toast.LENGTH_SHORT).show();
                                     }
-                                    if (set) Toast.makeText(dialog.getContext(), "Wallpaper set!", Toast.LENGTH_SHORT).show();*/
+                                });
                             }
                         })
                         .title("Set wallpaper?")
