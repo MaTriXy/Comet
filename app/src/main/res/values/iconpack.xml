@@ -28,6 +28,18 @@
         <item>default_googledocs_icon</item>
         <item>default_googlekeyboard_icon</item>
         <item>default_googleopnionrewards_icon</item>
+        <item>default_gallery_icon</item>
+        <item>default_broswer_icon</item>
+        <item>default_gallery_icon</item>
+        <item>default_settings_icon</item>
+        <item>default_clock_icon</item>
+        <item>default_calendar_icon</item>
+        <item>default_calculator_icon</item>
+        <item>default_contacts_icon</item>
+        <item>default_appdrawer_icon</item>
+        <item>default_camera_icon</item>
+        <item>default_messaging_icon</item>
+        <item>default_phone_icon</item>
 
     </string-array>
 
