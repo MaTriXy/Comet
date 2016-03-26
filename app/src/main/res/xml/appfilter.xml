@@ -11,7 +11,7 @@
     <item component=":CAMERA" drawable="default_camera_icon" />
     <item component=":CLOCK" drawable="default_clock_icon" />
     <item component=":CONTACTS" drawable="default_contacts_icon" />
-    <item component=":EMAIL" drawable="default_gmail_icon" />
+    <item component=":EMAIL" drawable="default_email_icon" />
     <item component=":GALLERY" drawable="default_gallery_icon" />
     <item component=":PHONE" drawable="default_phone_icon" />-->
 
