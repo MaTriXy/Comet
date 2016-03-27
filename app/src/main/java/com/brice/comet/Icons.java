@@ -2,8 +2,8 @@ package com.brice.comet;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -15,6 +15,8 @@ public class Icons extends AppCompatActivity {
     ArrayList<ArrayList<String>> section_icon_names;
     ArrayList<ArrayList<Integer>> section_icon_icons;
 
+    RecyclerView rv;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,7 @@ public class Icons extends AppCompatActivity {
         setTitle("Icons");
 
         new com.brice.comet.Drawer().make(Icons.this, savedInstanceState).build();
+        rv = (RecyclerView) findViewById(R.id.rv);
 
         names = new ArrayList<>();
         icons = new ArrayList<>();
@@ -29,6 +32,9 @@ public class Icons extends AppCompatActivity {
         section_names = new ArrayList<>();
         section_icon_names = new ArrayList<>();
         section_icon_icons = new ArrayList<>();
+
+        StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
+        rv.setLayoutManager(layoutManager);
 
         new Thread() {
             @Override
@@ -39,9 +45,9 @@ public class Icons extends AppCompatActivity {
                     for (Field drawable : drawables) {
                         if (drawable.getName().matches(icon)) {
                             String name = icon.replace("_", " ");
-                            if (name.startsWith("r ")) {
-                                name = name.replace("r ", "");
-                            }
+                            if (name.startsWith("default ")) name = name.substring(8);
+                            if (name.endsWith(" icon")) name = name.substring(0, name.length() - 5);
+
                             names.add(name);
                             icons.add(getResources().getIdentifier(drawable.getName(), "drawable", R.drawable.class.getPackage().getName()));
                             break;
@@ -98,11 +104,7 @@ public class Icons extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        RecyclerView rv = (RecyclerView) findViewById(R.id.rv);
-                        GridLayoutManager layoutManager = new GridLayoutManager(Icons.this, 3);
-                        rv.setLayoutManager(layoutManager);
                         IconsAdapter adapter = new IconsAdapter(section_names, section_icon_names, section_icon_icons, Icons.this);
-                        adapter.setLayoutManager(layoutManager);
                         rv.setAdapter(adapter);
                     }
                 });

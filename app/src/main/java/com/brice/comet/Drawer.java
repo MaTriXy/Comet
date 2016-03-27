@@ -41,16 +41,16 @@ public class Drawer {
         int selected = -1;
         switch(activity.getTitle().toString()){
             case "Home":
-                selected = 0;
-                break;
-            case "Icons":
                 selected = 1;
                 break;
-            case "Wallpapers":
+            case "Icons":
                 selected = 2;
                 break;
-            case "Apply":
+            case "Wallpapers":
                 selected = 3;
+                break;
+            case "Apply":
+                selected = 4;
                 break;
             case "About":
                 selected = 5;
