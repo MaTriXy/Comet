@@ -1,13 +1,17 @@
 package com.brice.comet;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.bumptech.glide.Glide;
 
 public class Home extends AppCompatActivity {
 
@@ -31,8 +35,30 @@ public class Home extends AppCompatActivity {
 
         new com.brice.comet.Drawer().make(Home.this, savedInstanceState).build();
 
-        Glide.with(this).load(getResources().getString(R.string.main_cover)).centerCrop().into(main);
-        Glide.with(this).load(getResources().getString(R.string.icon_cover)).centerCrop().into(secondary);
+        new Thread() {
+            @Override
+            public void run() {
+                final Bitmap main_cover = Downloader.downloadImage(Home.this, getResources().getString(R.string.main_cover));
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        TransitionDrawable td = new TransitionDrawable(new Drawable[]{new ColorDrawable(Color.TRANSPARENT), new BitmapDrawable(getResources(), main_cover)});
+                        main.setImageDrawable(td);
+                        td.startTransition(250);
+                    }
+                });
+
+                final Bitmap icon_cover = Downloader.downloadImage(Home.this, getResources().getString(R.string.icon_cover));
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        TransitionDrawable td = new TransitionDrawable(new Drawable[]{new ColorDrawable(Color.TRANSPARENT), new BitmapDrawable(getResources(), icon_cover)});
+                        secondary.setImageDrawable(td);
+                        td.startTransition(250);
+                    }
+                });
+            }
+        }.start();
 
         icons.setOnClickListener(new View.OnClickListener() {
             @Override

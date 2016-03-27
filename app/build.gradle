@@ -35,5 +35,5 @@ dependencies {
     compile('com.github.afollestad:sectioned-recyclerview:0.2.0') {
         transitive = true
     }
-    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
 }

@@ -1,8 +1,10 @@
 package com.brice.comet;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -22,8 +24,10 @@ import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 
 public class Drawer {
 
-    private AccountHeader getAccountHeader(AppCompatActivity activity, Bundle savedState) {
-        AccountHeader header = new AccountHeaderBuilder()
+    private AccountHeader header;
+
+    private AccountHeader getAccountHeader(final Activity activity, Bundle savedState) {
+        header = new AccountHeaderBuilder()
                 .withActivity(activity)
                 .withCompactStyle(false)
                 .withProfileImagesClickable(false)
@@ -33,11 +37,23 @@ public class Drawer {
                         new ProfileDrawerItem().withName(activity.getResources().getString(R.string.app_name)).withEmail("Version " + BuildConfig.VERSION_NAME).withIcon(new ColorDrawable(ContextCompat.getColor(activity, R.color.colorPrimary)))
                 )
                 .build();
-        Glide.with(activity).load(activity.getResources().getString(R.string.drawer_cover)).into(header.getHeaderBackgroundView());
+
+        new Thread() {
+            @Override
+            public void run() {
+                final Bitmap image = Downloader.downloadImage(activity, activity.getResources().getString(R.string.drawer_cover));
+                activity.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        header.setBackground(new BitmapDrawable(activity.getResources(), image));
+                    }
+                });
+            }
+        }.start();
         return header;
     }
 
-    public DrawerBuilder make(final AppCompatActivity activity, Bundle savedState) {
+    public DrawerBuilder make(final Activity activity, Bundle savedState) {
         int selected = -1;
         switch(activity.getTitle().toString()){
             case "Home":

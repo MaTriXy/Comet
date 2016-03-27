@@ -3,6 +3,11 @@ package com.brice.comet;
 import android.app.Activity;
 import android.app.WallpaperManager;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.TransitionDrawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -89,10 +94,22 @@ public static class ViewHolder extends RecyclerView.ViewHolder {
             }
         });
 
-
-
         ((TextView)holder.title).setText(mTitles.get(position));
-        Glide.with(activity).load(mThumbs.get(position)).into((ImageView) holder.v.findViewById(R.id.wall));
+
+        new Thread() {
+            @Override
+            public void run() {
+                final Bitmap wall = Downloader.downloadImage(activity, mThumbs.get(holder.getAdapterPosition()));
+                activity.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        TransitionDrawable td = new TransitionDrawable(new Drawable[]{new ColorDrawable(Color.TRANSPARENT), new BitmapDrawable(activity.getResources(), wall)});
+                        ((ImageView) holder.v.findViewById(R.id.wall)).setImageDrawable(td);
+                        td.startTransition(250);
+                    }
+                });
+            }
+        }.start();
     }
 
     @Override
