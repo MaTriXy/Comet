@@ -2,51 +2,51 @@
 <resources>
 
     <string-array name="icon_pack" translatable="false">
-        <item>default_googleplus_icon</item>
+        <item>default_google_plus_icon</item>
         <item>default_snapseed_icon</item>
-        <item>default_googleapp_icon</item>
-        <item>default_chrome_icon</item>
-        <item>default_chromedev_icon</item>
+        <item>default_google_app_icon</item>
+        <item>default_google_chrome_icon</item>
+        <item>default_google_chrome_dev_icon</item>
         <item>default_youtube_icon</item>
-        <item>default_googlemaps_icon</item>
-        <item>default_googlekeep_icon</item>
-        <item>default_googleplaymusic_icon</item>
-        <item>default_googleplaygames_icon</item>
-        <item>default_googleplay_icon</item>
-        <item>default_googlenowlauncher_icon</item>
-        <item>default_gmail_icon</item>
-        <item>default_googleearth_icon</item>
-        <item>default_hangouts_icon</item>
-        <item>default_googlecalendar_icon</item>
-        <item>default_googlephotos_icon</item>
-        <item>default_googleplaynewsstand_icon</item>
-        <item>default_googlebooks_icon</item>
-        <item>default_googledrive_icon</item>
-        <item>default_googlekeep_icon</item>
-        <item>default_googleslides_icon</item>
-        <item>default_googlesheets_icon</item>
-        <item>default_googledocs_icon</item>
-        <item>default_googlekeyboard_icon</item>
-        <item>default_googleopnionrewards_icon</item>
+        <item>default_google_maps_icon</item>
+        <item>default_google_keep_icon</item>
+        <item>default_google_play_music_icon</item>
+        <item>default_google_play_games_icon</item>
+        <item>default_google_play_icon</item>
+        <item>default_google_now_launcher_icon</item>
+        <item>default_google_mail_icon</item>
+        <item>default_google_earth_icon</item>
+        <item>default_google_hangouts_icon</item>
+        <item>default_google_calendar_icon</item>
+        <item>default_google_photos_icon</item>
+        <item>default_google_play_newsstand_icon</item>
+        <item>default_google_play_books_icon</item>
+        <item>default_google_drive_icon</item>
+        <item>default_google_keep_icon</item>
+        <item>default_google_slides_icon</item>
+        <item>default_google_sheets_icon</item>
+        <item>default_google_docs_icon</item>
+        <item>default_google_keyboard_icon</item>
+        <item>default_google_opinion_rewards_icon</item>
         <item>default_gallery_icon</item>
-        <item>default_broswer_icon</item>
+        <item>default_browser_icon</item>
         <item>default_settings_icon</item>
         <item>default_clock_icon</item>
         <item>default_calendar_icon</item>
         <item>default_calculator_icon</item>
         <item>default_contacts_icon</item>
-        <item>default_appdrawer_icon</item>
+        <item>default_app_drawer_icon</item>
         <item>default_camera_icon</item>
         <item>default_messaging_icon</item>
         <item>default_phone_icon</item>
         <item>default_colorswitch_icon</item>
         <item>default_facebook_icon</item>
-        <item>default_filebrowser_icon</item>
+        <item>default_file_browser_icon</item>
         <item>default_firefox_icon</item>
         <item>default_ifunny_icon</item>
         <item>default_instagram_icon</item>
-        <item>default_juicesshclient_icon</item>
-        <item>default_kernalauditor_icon</item>
+        <item>default_juice_ssh_client_icon</item>
+        <item>default_kernel_auditor_icon</item>
         <item>default_kik_icon</item>
         <item>default_messenger_icon</item>
         <item>default_perfmon_icon</item>
@@ -55,35 +55,35 @@
         <item>default_snapchat_icon</item>
         <item>default_spotify_icon</item>
         <item>default_squarecash_icon</item>
-        <item>default_talonfortwitter_icon</item>
+        <item>default_talon_for_twitter_icon</item>
         <item>default_telegram_icon</item>
         <item>default_twitter_icon</item>
         <item>default_whatsapp_icon</item>
-        <item>default_xdapremium_icon</item>
-        <item>default_googletranslate_icon</item>
-        <item>default_streetview_icon</item>
-        <item>default_googleplaymoviesandtv_icon</item>
-        <item>default_newsandweather_icon</item>
-        <item>default_googlecamera_icon</item>
-        <item>default_androidwear_icon</item>
-        <item>default_androidpay_icon</item>
+        <item>default_xda_premium_icon</item>
+        <item>default_google_translate_icon</item>
+        <item>default_street_view_icon</item>
+        <item>default_google_play_movies_icon</item>
+        <item>default_google_news_and_weather_icon</item>
+        <item>default_google_camera_icon</item>
+        <item>default_android_wear_icon</item>
+        <item>default_android_pay_icon</item>
         <item>default_downloads_icon</item>
         <item>default_music_icon</item>
-        <item>default_souncloud_icon</item>
+        <item>default_soundcloud_icon</item>
         <item>default_slack_icon</item>
         <item>default_skype_icon</item>
-        <item>default_novalauncher_icon</item>
+        <item>default_nova_launcher_icon</item>
         <item>default_netflix_icon</item>
         <item>default_ebay_icon</item>
-        <item>default_clashofclans_icon</item>
+        <item>default_clash_of_clans_icon</item>
         <item>default_amazon_icon</item>
         <item>default_beyondpod_icon</item>
-        <item>default_forzafootball_icon</item>
+        <item>default_forza_football_icon</item>
         <item>default_imgur_icon</item>
         <item>default_tapatalk_icon</item>
         <item>default_tvseries_icon</item>
         <item>default_dropbox_icon</item>
-        <item>default_everynote_icon</item>
+        <item>default_evernote_icon</item>
 
     </string-array>
 

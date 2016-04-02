@@ -10,10 +10,9 @@ import java.util.ArrayList;
 
 public class Icons extends AppCompatActivity {
 
-    ArrayList<String> names, section_names;
-    ArrayList<Integer> icons;
-    ArrayList<ArrayList<String>> section_icon_names;
-    ArrayList<ArrayList<Integer>> section_icon_icons;
+    ArrayList<IconItem> icons;
+    ArrayList<String> section_names;
+    ArrayList<ArrayList<IconItem>> section_icons;
 
     RecyclerView rv;
 
@@ -26,12 +25,9 @@ public class Icons extends AppCompatActivity {
         new com.brice.comet.Drawer().make(Icons.this, savedInstanceState).build();
         rv = (RecyclerView) findViewById(R.id.rv);
 
-        names = new ArrayList<>();
         icons = new ArrayList<>();
-
         section_names = new ArrayList<>();
-        section_icon_names = new ArrayList<>();
-        section_icon_icons = new ArrayList<>();
+        section_icons = new ArrayList<>();
 
         StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
         rv.setLayoutManager(layoutManager);
@@ -48,63 +44,61 @@ public class Icons extends AppCompatActivity {
                             if (name.startsWith("default ")) name = name.substring(8);
                             if (name.endsWith(" icon")) name = name.substring(0, name.length() - 5);
 
-                            names.add(name);
-                            icons.add(getResources().getIdentifier(drawable.getName(), "drawable", R.drawable.class.getPackage().getName()));
+                            icons.add(new IconItem(Character.toString(name.charAt(0)).toUpperCase() + name.substring(1, name.length()), getResources().getIdentifier(drawable.getName(), "drawable", R.drawable.class.getPackage().getName())));
                             break;
                         }
                     }
                 }
 
-                for (int section = 0; section < names.size(); section++) {
+                for (int section = 0; section < icons.size(); section++) {
                     //create a list of possible names for the section
                     ArrayList<String> possiblenames = new ArrayList<>();
-                    for (int icon = 0; icon < names.size(); icon++) {
-                        if (similar(names.get(section), names.get(icon))) possiblenames.add(overlap(names.get(section), names.get(icon)));
+                    for (int icon = 0; icon < icons.size(); icon++) {
+                        if (similar(icons.get(section).name, icons.get(icon).name)) possiblenames.add(overlap(icons.get(section).name, icons.get(icon).name));
                     }
 
                     String name = possiblenames.get(0);
                     for (String possible : possiblenames) {
-                        if (possible.length() < name.length()) name = possible;
+                        if ((possible.length() < name.length() || name.length() == 0) && possible.length() > 0) name = possible;
                     }
+                    if (name.length() == 0) continue;
 
                     //create a list of all the icons that would be in the section
-                    ArrayList<String> icon_names = new ArrayList<>();
-                    ArrayList<Integer> icon_icons = new ArrayList<>();
-                    for (int icon = 0; icon < names.size(); icon++) {
-                        if (names.get(icon).contains(name)) {
-                            icon_names.add(names.get(icon));
-                            icon_icons.add(icons.get(icon));
+                    ArrayList<IconItem> possible_icons = new ArrayList<>();
+                    for (int icon = 0; icon < icons.size(); icon++) {
+                        if (icons.get(icon).name.contains(name)) {
+                            possible_icons.add(icons.get(icon));
                         }
                     }
+
+                    name = Character.toString(name.charAt(0)).toUpperCase() + name.substring(1, name.length());
 
                     //create the section
                     if (!section_names.contains(name)) {
                         section_names.add(name);
-                        section_icon_names.add(icon_names);
-                        section_icon_icons.add(icon_icons);
+                        section_icons.add(possible_icons);
                     }
                 }
 
                 //check each section doesn't already have icons in another section
-                for (int i = 0; i < section_icon_names.size(); i++) {
+                for (int i = 0; i < section_icons.size(); i++) {
                     int contains = 0;
-                    for (int i2 = 0; i2 < section_icon_names.get(i).size(); i2++) {
-                        for (ArrayList<String> icon_names1 : section_icon_names) {
-                            if (icon_names1.contains(section_icon_names.get(i).get(i2))) contains++;
+                    for (int i2 = 0; i2 < section_icons.get(i).size(); i2++) {
+                        for (ArrayList<IconItem> icon_names1 : section_icons) {
+                            if (icon_names1.contains(section_icons.get(i).get(i2))) contains++;
                         }
                     }
 
-                    if (contains > ((double) section_icon_names.get(i).size() / 2)) {
+                    if (contains > ((double) section_icons.get(i).size() / 1.5)) {
                         section_names.remove(i);
-                        section_icon_names.remove(i);
-                        section_icon_icons.remove(i);
+                        section_icons.remove(i);
                     }
                 }
 
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        IconsAdapter adapter = new IconsAdapter(section_names, section_icon_names, section_icon_icons, Icons.this);
+                        IconsAdapter adapter = new IconsAdapter(section_names, section_icons, Icons.this);
                         rv.setAdapter(adapter);
                     }
                 });

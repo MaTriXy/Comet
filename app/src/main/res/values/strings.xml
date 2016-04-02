@@ -6,8 +6,8 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="main_cover">http://briceronie.github.io/CometShowcaseCover.png</string>
-    <string name="drawer_cover">http://briceronie.github.io/CometShowcaseCover2.png</string>
+    <string name="main_cover">http://briceronie.github.io/CometShowcaseCover2.png</string>
+    <string name="drawer_cover">http://briceronie.github.io/CometCover3.png</string>
     <string name="icon_cover">http://briceronie.github.io/CometShowcaseCover.png</string>
 
     <string-array name="wallpaper_names">
