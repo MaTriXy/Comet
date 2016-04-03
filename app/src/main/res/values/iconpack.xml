@@ -101,15 +101,21 @@
         <item>default_wattpad_icon</item>
         <item>default_zooper_widget_icon</item>
         <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        <item>default_inbox_icon</item>
-        
+        <item>variant_calculator_icon</item>
+        <item>variant_calculator_icon_2</item>
+        <item>variant_fenix_for_twitter_icon</item>
+        <item>variant_googleplay_icon</item>
+        <item>variant_googleplay_icon_2</item>
+        <item>variant_google_plus_icon</item>
+        <item>variant_googleplaygames_icon</item>
+        <item>variant_hangouts_icon</item>
+        <item>variant_hangouts_icon_2</item>
+        <item>variant_hangouts_icon_3</item>
+        <item>variant_hangouts_icon_4</item>
+        <item>variant_hangouts_icon_5</item>
+        <item>variant_hangouts_icon_6</item>
+        <item>variant_music_icon</item>
+        <item>variant_twitter_icon</item>
 
     </string-array>
 
