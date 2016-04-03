@@ -84,6 +84,23 @@
         <item>default_tvseries_icon</item>
         <item>default_dropbox_icon</item>
         <item>default_evernote_icon</item>
+        <item>default_aa_icon</item>
+        <item>default_ac_display_icon</item>
+        <item>default_action_launcher_icon</item>
+        <item>default_ad_away_icon</item>
+        <item>default_all_cast_icon</item>
+        <item>default_evernote_icon</item>
+        <item>default_facer_icon</item>
+        <item>default_fenix_for_twitter_icon</item>
+        <item>default_heads_up_icon</item>
+        <item>default_klwp_icon</item>
+        <item>default_phonograph_icon</item>
+        <item>default_pinterest_icon</item>
+        <item>default_tumblr_icon</item>
+        <item>default_uc_browser_icon</item>
+        <item>default_wattpad_icon</item>
+        <item>default_zooper_widget_icon</item>
+        <item>default_inbox_icon</item>
 
     </string-array>
 
