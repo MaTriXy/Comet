@@ -3,9 +3,9 @@
     <!--<iconback img1="iconback" />-->
     <scale factor="1.0" />
 
-    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="default_appdrawer_icon" />
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="default_app_drawer_icon" />
     <item component=":BROWSER" drawable="default_browser_icon" />
-    <item component=":SMS" drawable="default_messenging_icon" />
+    <item component=":SMS" drawable="default_messaging_icon" />
     <item component=":CALCULATOR" drawable="default_calculator_icon" />
     <item component=":CALENDAR" drawable="default_calendar_icon" />
     <item component=":CAMERA" drawable="default_camera_icon" />
@@ -19,86 +19,86 @@
     <item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity" drawable="default_browser_icon" />
 
     <!-- Camera -->
-    <item component="ComponentInfo{com.james.simplecamera/com.james.simplecamera.MainActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CamcorderApp}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraParty}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.asus.camera/com.asus.camera.MirrorApp}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera/com.android.camera.ArcCamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraEntry}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.lgecamera/com.android.lgecamera.CameraLoading}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.activity.media.CameraLauncherActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraApp}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.miui.camera/com.miui.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.motorola.Camera/com.motorola.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.pantech.app.camera/com.pantech.app.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.pantech.app.skycamera/com.pantech.app.skycamera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.sonyericsson.android.camera3d/com.sonyericsson.android.camera3d.CameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.sonyericsson.camera/com.sonyericsson.camera.photo.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.sonyericsson.android.camera3d/com.sonyericsson.android.camera3d.viewer.Browser}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CamLoading}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.netco.camera/com.netco.camera.Main}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.modaco.cameralauncher/com.modaco.cameralauncherActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.sec.android.app.latin.launcher.camera/com.sec.android.app.latin.launcher.camera.Launcher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{org.teameos.apps.cameralauncher/org.teameos.apps.cameralauncher.CameraLauncherActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraMain}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraLoading}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.CameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.dama.camera2/com.dama.camera2.MainActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.KbStyle2Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraAppLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.Panarama}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.VideoCamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.VideoCameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.hwcamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryForVideo}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.moblynx.camerajbplus/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryImage}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.LewaGalleryActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.lenovo.scg/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon"/>
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieBrowserActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieGallery}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.htc.camera/com.htc.camera.CameraEntry}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.neaststudios.procapture/com.neaststudios.procapture.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoBrowserActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoPlayer}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.vivo.GalleryTabActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.lenovo.scg/com.lenovo.minicamera.activity.MiniCameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher40}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher43}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher44}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.marginz.snap/com.marginz.snap.app.Gallery}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.VideoCamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.moblynx.camerajbplus/com.android.gallery3d.app.Gallery}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.moblynx.camerajbplus/com.moblynx.camerajb.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.moblynx.camerajbplus/com.moblynx.galleryjb.app.Gallery}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.neaststudios.procapture/mobi.vserv.android.adengine.VservAdManager}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.android.camera2/com.android.camera.VideoCamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.EffectCameraActivity}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.lomo.LomoCamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.OppoCamera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraActivity}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.james.simplecamera/com.james.simplecamera.MainActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CamcorderApp}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraParty}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.asus.camera/com.asus.camera.MirrorApp}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.ArcCamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraEntry}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.lgecamera/com.android.lgecamera.CameraLoading}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.activity.media.CameraLauncherActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraApp}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.miui.camera/com.miui.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.motorola.Camera/com.motorola.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.pantech.app.camera/com.pantech.app.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.pantech.app.skycamera/com.pantech.app.skycamera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.sonyericsson.android.camera3d/com.sonyericsson.android.camera3d.CameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.sonyericsson.camera/com.sonyericsson.camera.photo.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.sonyericsson.android.camera3d/com.sonyericsson.android.camera3d.viewer.Browser}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CamLoading}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.netco.camera/com.netco.camera.Main}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.modaco.cameralauncher/com.modaco.cameralauncherActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.camera/com.sec.android.app.latin.launcher.camera.Launcher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{org.teameos.apps.cameralauncher/org.teameos.apps.cameralauncher.CameraLauncherActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraMain}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraLoading}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.CameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.dama.camera2/com.dama.camera2.MainActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.KbStyle2Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraAppLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.Panarama}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.VideoCamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.VideoCameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.hwcamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryForVideo}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.moblynx.camerajbplus/com.android.camera.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryImage}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.LewaGalleryActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.lenovo.scg/com.android.camera.CameraLauncher}" drawable="default_camera_icon"/>
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieBrowserActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieGallery}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.htc.camera/com.htc.camera.CameraEntry}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.neaststudios.procapture/com.neaststudios.procapture.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoBrowserActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoPlayer}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.vivo.GalleryTabActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.lenovo.scg/com.lenovo.minicamera.activity.MiniCameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher40}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher43}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.marginz.snap/com.marginz.camera.CameraLauncher44}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.marginz.snap/com.marginz.snap.app.Gallery}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.VideoCamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.moblynx.camerajbplus/com.android.gallery3d.app.Gallery}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.moblynx.camerajbplus/com.moblynx.camerajb.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.moblynx.camerajbplus/com.moblynx.galleryjb.app.Gallery}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.neaststudios.procapture/mobi.vserv.android.adengine.VservAdManager}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.VideoCamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.EffectCameraActivity}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.lomo.LomoCamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.OppoCamera}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraLauncher}" drawable="default_camera_icon" />
+    <item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraActivity}" drawable="default_camera_icon" />
 
     <!-- Google Camera -->
-    <item component="ComponentInfo{com.google.android.camera/com.android.camera.Camera}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.google.android.gallery3d/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
-    <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="default_googlecamera_icon" />
+    <item component="ComponentInfo{com.google.android.camera/com.android.camera.Camera}" drawable="default_google_camera_icon" />
+    <item component="ComponentInfo{com.google.android.gallery3d/com.android.camera.CameraLauncher}" drawable="default_google_camera_icon" />
+    <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="default_google_camera_icon" />
 
     <!-- Contacts -->
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="default_contacts_icon" />
@@ -278,9 +278,11 @@
     <item component="ComponentInfo{com.htc.calculator/com.htc.calculator.Calculator}" drawable="default_calculator_icon" />
  
  <!-- Chrome -->
-    <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="default_chrome_icon" />
-    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
-    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="default_chrome_icon" />
+    <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="default_chrome_browser_icon" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="default_chrome_browser_icon" />
+
+<!-- Chrome Dev -->
+    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="default_chrome_dev_browser_icon" />
     
 <!-- Clock -->
     <item component="ComponentInfo{com.android.deskclock/com.agold.deskclocks.AgoldFragmentTabs}" drawable="default_clock_icon" />
@@ -396,10 +398,10 @@
     <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="default_evernote_icon" />
     
 <!-- FB Messenger -->
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="default_messenger_icon" />
-    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="default_messenger_icon" />
-    <item component="ComponentInfo{com.htc.facebookchat/com.htc.facebookchat.app.FacebookChatSwitchActivity}" drawable="default_messenger_icon" />
-    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.MainActivity}" drawable="default_messenger_icon" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="default_facebook_messenger_icon" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="default_facebook_messenger_icon" />
+    <item component="ComponentInfo{com.htc.facebookchat/com.htc.facebookchat.app.FacebookChatSwitchActivity}" drawable="default_facebook_messenger_icon" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.MainActivity}" drawable="default_facebook_messenger_icon" />
 
 <!-- Facebook -->
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="default_facebook_icon" />
@@ -407,65 +409,65 @@
     <item component="ComponentInfo{com.nook.fbwrapper/com.nook.fbwrapper.NookFBMain}" drawable="default_facebook_icon" />
 
 <!-- File Manager -->
-    <item component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.ClassifyFileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.filemanager.FileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.activities.BrowseActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.MainActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileExplorerTabActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerLauncherActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.tinnoui.TinnoUIFileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.tinnoui.TinnoUIViewPager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.TwFileOperationActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerTabActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager2.activity.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.activity.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.motorola.FileManager/com.motorola.FileManager.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.MainFileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.FileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.rhmsoft.fm/com.rhmsoft.fm.FileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FilerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerFragment}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.QRDFileExplorer}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.softwinner.explore/com.softwinner.explore.Main}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mhoffs.filemanager/com.mhoffs.filemanager.AMain}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{cDHQ.FileManagerForAndroid/DHQ.FileManagerForAndroid.Splash}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.sand.file/com.sand.file.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{android.dopod.FileManager/android.dopod.FileManager.dopodFileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.lewa.filemanager/com.lewa.filemanager.FileManagerMainActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileBrowser}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.Main}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.mobisystems.fileman/com.mobisystems.office.FileBrowser}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{fm.clean/fm.clean.MainActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowserActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowser}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.textedit.TextEditorActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.htc.htccnfilemanager/com.htc.htccnfilemanager.htccnFileManager}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.GnBootActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileManagerMainActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.Main}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.rhmsoft.fm.hd/com.rhmsoft.fm.hd.FileManagerHD}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.htc.filemanager/com.htc.filemanager.FileManagerActivity}" drawable="default_filebrowser_icon" />
-    <item component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}" drawable="default_filebrowser_icon" />
+    <item component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.ClassifyFileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.filemanager.FileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.activities.BrowseActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.MainActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileExplorerTabActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerLauncherActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.tinnoui.TinnoUIFileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.tinnoui.TinnoUIViewPager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.TwFileOperationActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerTabActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager2.activity.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.activity.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.motorola.FileManager/com.motorola.FileManager.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.MainFileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.FileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.rhmsoft.fm/com.rhmsoft.fm.FileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FilerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerFragment}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.QRDFileExplorer}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.softwinner.explore/com.softwinner.explore.Main}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mhoffs.filemanager/com.mhoffs.filemanager.AMain}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{cDHQ.FileManagerForAndroid/DHQ.FileManagerForAndroid.Splash}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.sand.file/com.sand.file.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{android.dopod.FileManager/android.dopod.FileManager.dopodFileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.lewa.filemanager/com.lewa.filemanager.FileManagerMainActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileBrowser}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.Main}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.mobisystems.fileman/com.mobisystems.office.FileBrowser}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{fm.clean/fm.clean.MainActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowserActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowser}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.textedit.TextEditorActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.htc.htccnfilemanager/com.htc.htccnfilemanager.htccnFileManager}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.GnBootActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileManagerMainActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.Main}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.rhmsoft.fm.hd/com.rhmsoft.fm.hd.FileManagerHD}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.htc.filemanager/com.htc.filemanager.FileManagerActivity}" drawable="default_file_manager_icon" />
+    <item component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}" drawable="default_file_manager_icon" />
 
 <!-- Firefox -->
-    <item component="ComponentInfo{cn.mozilla.firefox/cn.mozilla.firefox.App}" drawable="default_firefox_icon" />
-    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="default_firefox_icon" />
-    <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="default_firefox_icon" />
+    <item component="ComponentInfo{cn.mozilla.firefox/cn.mozilla.firefox.App}" drawable="default_firefox_browser_icon" />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="default_firefox_browser_icon" />
+    <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="default_firefox_browser_icon" />
     
 <!-- Gallery -->
     <item component="ComponentInfo{com.android.gallery/com.alensw.PicFolder.GalleryActivity}" drawable="default_gallery_icon" />
@@ -511,99 +513,99 @@
     <item component="ComponentInfo{com.asus.gallery/com.asus.gallery.app.EPhotoActivity}" drawable="default_gallery_icon" />
 
 <!-- Gmail -->
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="default_gmail_icon" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="default_gmail_icon" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="default_google_mail_icon" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="default_google_mail_icon" />
 
 <!-- Google Calendar -->
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.tasks.TasksActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthUI}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.LauncherActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.SplashActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.LaunchActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.activity.CalendarActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.JumpActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivityNew}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.asus.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarActivityMain}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.TabManagerActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.motorola.calendar/com.android.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.kfactormedia.mycalendarmobile/com.kfactormedia.mycalendarmobile.MyCalendarActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.codesector.calendar/com.codesector.calendar.CalendarActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" drawable="default_googlecalendar_icon" />
-    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarCarouselActivity}" drawable="default_googlecalendar_icon" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.tasks.TasksActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthUI}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.LauncherActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.SplashActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.LaunchActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.activity.CalendarActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.JumpActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivityNew}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.asus.calendar/com.android.calendar.AllInOneActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarActivityMain}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.TabManagerActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.motorola.calendar/com.android.calendar.AllInOneActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.kfactormedia.mycalendarmobile/com.kfactormedia.mycalendarmobile.MyCalendarActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.codesector.calendar/com.codesector.calendar.CalendarActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" drawable="default_google_calendar_icon" />
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarCarouselActivity}" drawable="default_google_calendar_icon" />
    
 <!-- Google Docs -->
-    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googledocs_icon" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_google_docs_icon" />
 
 <!-- Google Drive -->
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googledrive_icon" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_google_drive_icon" />
 
 <!-- Google Earth -->
-    <item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="default_googleearth_icon" />
-    <item component="ComponentInfo{com.google.earth/com.google.earth.MainActivity}" drawable="default_googleearth_icon" />
+    <item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="default_google_earth_icon" />
+    <item component="ComponentInfo{com.google.earth/com.google.earth.MainActivity}" drawable="default_google_earth_icon" />
 
 <!-- Google Fit -->
-    <!--item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="default_googlefit_icon" /-->
+    <!--item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="default_google_fit_icon" /-->
 
 <!-- Google Keep -->
-    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="default_googlekeep_icon" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="default_google_keep_icon" />
 
 <!-- Google Maps -->
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="default_googlemaps_icon" />
-    <item component="ComponentInfo{com.google.android.street/com.google.android.apps.dragonfly.activities.main.MainActivity}" drawable="default_googlemaps_icon" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="default_google_maps_icon" />
+    <item component="ComponentInfo{com.google.android.street/com.google.android.apps.dragonfly.activities.main.MainActivity}" drawable="default_google_maps_icon" />
 
 <!-- Google Now Launcher -->
-    <item component="ComponentInfo{com.google.android.launcher/com.google.android.launcher.StubApp}" drawable="default_googlenowlauncher_icon" />
+    <item component="ComponentInfo{com.google.android.launcher/com.google.android.launcher.StubApp}" drawable="default_google_now_launcher_icon" />
 
 <!-- Google Photos -->
-    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="default_googlephotos_icon" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="default_google_photos_icon" />
 
 <!-- Google Play Books -->
-    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="default_googlebooks_icon" />
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="default_google_play_books_icon" />
 
 <!-- Google Play Games -->
-    <item component="ComponentInfo{com.google.android.play.games/com.android.gms.games.ui.destination.main.MainActivity}" drawable="default_googleplaygames_icon" />
+    <item component="ComponentInfo{com.google.android.play.games/com.android.gms.games.ui.destination.main.MainActivity}" drawable="default_google_play_games_icon" />
 
 <!-- Google Play Movies -->
-    <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="default_googleplaymoviesandtv_icon" />
+    <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="default_google_play_movies_icon" />
 
 <!-- Google Play Music -->
-    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="default_googleplaymusic_icon" />
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="default_google_play_music_icon" />
 
 <!-- Google Play Newsstand -->
-    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="default_googleplaynewsstand" />
+    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="default_google_play_newsstand_icon" />
 
 <!-- Google Plus -->
-    <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="default_googleplus_icon" />
+    <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="default_google_plus_icon" />
 
 <!-- Google Search -->
-    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="default_googleapp_icon" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="default_google_app_icon" />
 
 <!-- Google Sheets -->
-    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googlesheets_icon" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_google_sheets_icon" />
 
 <!-- Google Slides -->
-    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_googleslides_icon" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="default_google_slides_icon" />
 
 <!-- Google Translate -->
-    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivity}" drawable="default_googletranslate_icon" />
-    <item component="ComponentInfo{net.trans.droid.translatefr/net.trans.droid.translatefr.TranslateActivity}" drawable="default_googletranslate_icon" />
-    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="default_googletranslate_icon" />
-    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivityHUI}" drawable="default_googletranslate_icon" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivity}" drawable="default_google_translate_icon" />
+    <item component="ComponentInfo{net.trans.droid.translatefr/net.trans.droid.translatefr.TranslateActivity}" drawable="default_google_translate_icon" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="default_google_translate_icon" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivityHUI}" drawable="default_google_translate_icon" />
 
 <!-- Hangouts -->
     <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="default_hangouts_icon" />
@@ -663,16 +665,16 @@
     <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}" drawable="default_netflix_icon" />
 
 <!-- News & Weather -->
-    <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="default_newsandweather_icon" />
+    <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="default_google_news_and_weather_icon" />
 
  <!-- Play Games -->
-    <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="default_googleplaygames_icon" />
+    <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="default_google_play_games_icon" />
 
 <!-- Play Store -->
-    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="default_googleplay_icon" />
-    <item component="ComponentInfo{com.google.android.finsky/com.google.android.finsky.activities.MainActivity}" drawable="default_googleplay_icon" />
-    <item component="ComponentInfo{com.gau.diy.recomendcenter/com.jiubang.intent.aciton_FUNC_RECOMMENDCENTER}" drawable="default_googleplay_icon" />
-    <item component="ComponentInfo{com.android.vending/com.android.vending.MainActivity}" drawable="default_googleplay_icon" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="default_google_play_icon" />
+    <item component="ComponentInfo{com.google.android.finsky/com.google.android.finsky.activities.MainActivity}" drawable="default_google_play_icon" />
+    <item component="ComponentInfo{com.gau.diy.recomendcenter/com.jiubang.intent.aciton_FUNC_RECOMMENDCENTER}" drawable="default_google_play_icon" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.MainActivity}" drawable="default_google_play_icon" />
 
 <!-- Settings -->
     <item component="ComponentInfo{com.advancedprocessmanager/com.advancedprocessmanager.MyActivity}" drawable="default_settings_icon" />
@@ -703,14 +705,14 @@
     <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity}" drawable="default_snapseed_icon" />
 
 <!-- Sound Cloud -->
-    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Launch}" drawable="default_soundcloud_icon" />
-    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="default_soundcloud_icon" />
-    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Dashboard}" drawable="default_soundcloud_icon" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Launch}" drawable="default_soundcloud_music_icon" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="default_soundcloud_music_icon" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Dashboard}" drawable="default_soundcloud_music_icon" />
 
 <!-- Spotify -->
-    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}" drawable="default_spotify_icon" />
-    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher}" drawable="default_spotify_icon" />
-    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="default_spotify_icon" />
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}" drawable="default_spotify_music_icon" />
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher}" drawable="default_spotify_music_icon" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="default_spotify_music_icon" />
 
 <!-- Twitter -->
     <item component="ComponentInfo{com.lge.sns/com.lge.sns.client.account.facebook.LoginFacebookView}" drawable="default_twitter_icon" />

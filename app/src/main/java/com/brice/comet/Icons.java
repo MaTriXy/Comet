@@ -73,25 +73,25 @@ public class Icons extends AppCompatActivity {
 
                     name = Character.toString(name.charAt(0)).toUpperCase() + name.substring(1, name.length());
 
+                    int contains = 0;
+                    for (IconItem icon : possible_icons) {
+                        for (int i = 0; i < section_icons.size(); i++) {
+                            if (section_icons.get(i).contains(icon)) {
+                                if (section_icons.size() > 1) contains++;
+                                else {
+                                    section_names.remove(i);
+                                    section_icons.remove(i);
+                                }
+                            }
+                        }
+                    }
+
+                    if (contains > possible_icons.size()) continue;
+
                     //create the section
                     if (!section_names.contains(name)) {
                         section_names.add(name);
                         section_icons.add(possible_icons);
-                    }
-                }
-
-                //check each section doesn't already have icons in another section
-                for (int i = 0; i < section_icons.size(); i++) {
-                    int contains = 0;
-                    for (int i2 = 0; i2 < section_icons.get(i).size(); i2++) {
-                        for (ArrayList<IconItem> icon_names1 : section_icons) {
-                            if (icon_names1.contains(section_icons.get(i).get(i2))) contains++;
-                        }
-                    }
-
-                    if (contains > ((double) section_icons.get(i).size() / 1.5)) {
-                        section_names.remove(i);
-                        section_icons.remove(i);
                     }
                 }
 

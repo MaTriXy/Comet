@@ -5,8 +5,8 @@
         <item>default_google_plus_icon</item>
         <item>default_snapseed_icon</item>
         <item>default_google_app_icon</item>
-        <item>default_google_chrome_icon</item>
-        <item>default_google_chrome_dev_icon</item>
+        <item>default_google_chrome_browser_icon</item>
+        <item>default_google_chrome_dev_browser_icon</item>
         <item>default_youtube_icon</item>
         <item>default_google_maps_icon</item>
         <item>default_google_keep_icon</item>
@@ -41,19 +41,19 @@
         <item>default_phone_icon</item>
         <item>default_colorswitch_icon</item>
         <item>default_facebook_icon</item>
-        <item>default_file_browser_icon</item>
-        <item>default_firefox_icon</item>
+        <item>default_file_manager_icon</item>
+        <item>default_firefox_browser_icon</item>
         <item>default_ifunny_icon</item>
         <item>default_instagram_icon</item>
         <item>default_juice_ssh_client_icon</item>
         <item>default_kernel_auditor_icon</item>
         <item>default_kik_icon</item>
-        <item>default_messenger_icon</item>
+        <item>default_facebook_messenger_icon</item>
         <item>default_perfmon_icon</item>
         <item>default_pocketcast_icon</item>
         <item>default_reddit_icon</item>
         <item>default_snapchat_icon</item>
-        <item>default_spotify_icon</item>
+        <item>default_spotify_music_icon</item>
         <item>default_squarecash_icon</item>
         <item>default_talon_for_twitter_icon</item>
         <item>default_telegram_icon</item>
@@ -69,11 +69,11 @@
         <item>default_android_pay_icon</item>
         <item>default_downloads_icon</item>
         <item>default_music_icon</item>
-        <item>default_soundcloud_icon</item>
+        <item>default_soundcloud_music_icon</item>
         <item>default_slack_icon</item>
         <item>default_skype_icon</item>
         <item>default_nova_launcher_icon</item>
-        <item>default_netflix_icon</item>
+        <item>default_netflix_movies_icon</item>
         <item>default_ebay_icon</item>
         <item>default_clash_of_clans_icon</item>
         <item>default_amazon_icon</item>
