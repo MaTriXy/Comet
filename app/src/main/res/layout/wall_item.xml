@@ -1,54 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <LinearLayout
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@color/colorAccent"
-        android:layout_margin="4dp">
-        <com.brice.comet.SquareImageView
+        android:layout_margin="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="2dp"
+        app:cardBackgroundColor="@color/colorAccent" >
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/wall"
-            android:src="@mipmap/wall_loading"
-            android:scaleType="centerCrop" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="56dp">
+            android:orientation="vertical">
+            <com.brice.comet.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wall"
+                android:src="@mipmap/wall_loading"
+                android:scaleType="centerCrop" />
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
                 android:layout_weight="1"
                 android:layout_gravity="left"
-                android:padding="8dp"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Wallpaper"
                     android:id="@+id/textView"
-                    android:textSize="14sp"
-                    android:textColor="#fafafa"
-                    android:textStyle="bold" />
+                    android:textSize="16sp"
+                    android:textColor="#ffffff" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Brice Seibert"
                     android:id="@+id/textView2"
-                    android:textSize="14sp"
-                    android:textColor="#eeeeee" />
+                    android:textSize="12sp"
+                    android:textColor="#B3ffffff" />
             </LinearLayout>
 
-        </FrameLayout>
+        </LinearLayout>
 
-    </LinearLayout>
+    </android.support.v7.widget.CardView>
 
 </FrameLayout>

@@ -18,7 +18,7 @@ public class Downloader {
             i.printStackTrace();
         }
 
-        Bitmap bmp = Bitmap.createBitmap(50, 50, Bitmap.Config.ARGB_8888);
+        Bitmap bmp = Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bmp);
         canvas.drawColor(Color.TRANSPARENT);
         return bmp;

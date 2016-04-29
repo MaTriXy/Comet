@@ -11,11 +11,13 @@
     <string name="icon_cover">http://briceronie.github.io/CometShowcaseCover.png</string>
 
     <string-array name="wallpaper_names">
-
+        <item>Comets</item>
+        <item>Comets 2</item>
     </string-array>
 
     <string-array name="wallpapers">
-
+        <item>http://briceronie.github.io/CometShowcaseCover2.png</item>
+        <item>http://briceronie.github.io/PlsWork.png</item>
     </string-array>
 
     <string-array name="launchers">

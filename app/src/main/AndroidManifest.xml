@@ -119,18 +119,12 @@
                 <action android:name="com.lge.launcher2.THEME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
 
-        <activity android:name="com.brice.comet.Home" />
-        <activity android:name="com.brice.comet.Icons" />
-        <activity android:name="com.brice.comet.Wallpapers">
             <intent-filter>
                 <action android:name="android.intent.action.SET_WALLPAPER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.brice.comet.Launchers" />
-        <activity android:name="com.brice.comet.About" />
     </application>
 
 </manifest>

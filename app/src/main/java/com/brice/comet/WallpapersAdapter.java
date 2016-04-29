@@ -1,33 +1,24 @@
 package com.brice.comet;
 
-import android.app.Activity;
-import android.app.WallpaperManager;
-import android.graphics.Bitmap;
-import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.TransitionDrawable;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.afollestad.materialdialogs.MaterialDialog;
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.animation.GlideAnimation;
-import com.bumptech.glide.request.target.SimpleTarget;
 
 import java.util.ArrayList;
 
 public class WallpapersAdapter extends RecyclerView.Adapter<WallpapersAdapter.ViewHolder> {
 
-    private ArrayList<String> mThumbs;
-    private ArrayList<String> mTitles;
-    private Activity activity;
+    private ArrayList<WallpaperItem> list;
+    private AppCompatActivity activity;
 
 public static class ViewHolder extends RecyclerView.ViewHolder {
     public View v, vh, title;
@@ -39,9 +30,8 @@ public static class ViewHolder extends RecyclerView.ViewHolder {
     }
 }
 
-    public WallpapersAdapter(ArrayList<String> mThumbs, ArrayList<String> mTitles, Activity activity) {
-        this.mThumbs = mThumbs;
-        this.mTitles = mTitles;
+    public WallpapersAdapter(ArrayList<WallpaperItem> list, AppCompatActivity activity) {
+        this.list = list;
         this.activity = activity;
     }
 
@@ -58,62 +48,23 @@ public static class ViewHolder extends RecyclerView.ViewHolder {
         holder.v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-                ImageView wall = (ImageView) LayoutInflater.from(v.getContext()).inflate(R.layout.wall_item, null).findViewById(R.id.wall);
+                Bundle args = new Bundle();
+                args.putParcelable("wall", list.get(holder.getAdapterPosition()));
 
-                Glide.with(activity).load(mThumbs.get(holder.getAdapterPosition())).centerCrop().into(wall);
+                Fragment f = new WallpaperFragment();
+                f.setArguments(args);
 
-                new MaterialDialog.Builder(activity)
-                        .callback(new MaterialDialog.ButtonCallback() {
-                            @Override
-                            public void onPositive(MaterialDialog dialog) {
-                                super.onPositive(dialog);
-
-                                Glide.with(activity).load(mThumbs.get(holder.getAdapterPosition())).asBitmap().into(new SimpleTarget<Bitmap>() {
-                                    @Override
-                                    public void onResourceReady(Bitmap resource, GlideAnimation glideAnimation) {
-                                        WallpaperManager myWallpaperManager = WallpaperManager.getInstance(activity);
-
-                                        try {
-                                            myWallpaperManager.setBitmap(resource);
-                                        } catch (Exception e) {
-                                            e.printStackTrace();
-                                            Toast.makeText(activity, "Wallpaper not set :(", Toast.LENGTH_SHORT).show();
-                                            return;
-                                        }
-
-                                        Toast.makeText(activity, "Wallpaper set!", Toast.LENGTH_SHORT).show();
-                                    }
-                                });
-                            }
-                        })
-                        .title("Set wallpaper?")
-                        .customView(wall, false)
-                        .positiveText("Apply")
-                        .negativeText("Cancel")
-                        .show();
+                activity.getSupportFragmentManager().beginTransaction().add(R.id.fragment, f).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).addToBackStack(null).commit();
             }
         });
 
-        ((TextView)holder.title).setText(mTitles.get(position));
+        ((TextView)holder.title).setText(list.get(position).title);
 
-        new Thread() {
-            @Override
-            public void run() {
-                final Bitmap wall = Downloader.downloadImage(activity, mThumbs.get(holder.getAdapterPosition()));
-                activity.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        TransitionDrawable td = new TransitionDrawable(new Drawable[]{new ColorDrawable(Color.TRANSPARENT), new BitmapDrawable(activity.getResources(), wall)});
-                        ((ImageView) holder.v.findViewById(R.id.wall)).setImageDrawable(td);
-                        td.startTransition(250);
-                    }
-                });
-            }
-        }.start();
+        Glide.with(activity).load(list.get(position).url).into((ImageView) holder.v.findViewById(R.id.wall));
     }
 
     @Override
     public int getItemCount() {
-        return mThumbs.size();
+        return list.size();
     }
 }

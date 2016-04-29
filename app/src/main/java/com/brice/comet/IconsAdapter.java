@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter;
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
@@ -43,17 +44,6 @@ public class IconsAdapter extends SectionedRecyclerViewAdapter<IconsAdapter.View
         this.activity = activity;
         titles = section_titles;
         icons = section_icons;
-
-        new Thread() {
-            @Override
-            public void run() {
-                for (ArrayList<IconItem> section_icons : icons) {
-                    for (IconItem section_icon : section_icons) {
-                        section_icon.drawable = ContextCompat.getDrawable(IconsAdapter.this.activity, section_icon.icon);
-                    }
-                }
-            }
-        }.start();
     }
 
     @Override
@@ -67,51 +57,25 @@ public class IconsAdapter extends SectionedRecyclerViewAdapter<IconsAdapter.View
     }
 
     @Override
-    public void onBindViewHolder(final ViewHolder holder, final int section, final int relative, final int absolute) {
-        final SquareImageView image = (SquareImageView) holder.vh;
-        final SquareImageView image2 = (SquareImageView) holder.vh2;
+    public void onBindViewHolder(final ViewHolder holder, final int section, final int relative, int absolute) {
+        Glide.with(activity).load(icons.get(section).get(relative).icon).into((SquareImageView) holder.vh);
 
-        new Thread() {
-            @Override
-            public void run() {
-                while(true) {
-                    if (icons.get(section).get(relative).drawable != null) break;
-                    try {
-                        sleep(500);
-                    } catch(InterruptedException e) {
-                        return;
-                    }
-                }
-                activity.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        TransitionDrawable icon = new TransitionDrawable(new Drawable[]{new ColorDrawable(Color.TRANSPARENT), icons.get(section).get(relative).drawable});
-                        image.setImageDrawable(icon);
-                        icon.startTransition(250);
-                    }
-                });
-            }
-        }.start();
-
-        image.setOnClickListener(new View.OnClickListener() {
+        holder.v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    image2.setImageResource(icons.get(section).get(relative).icon);
-                } catch (Exception e) {
-                    return;
-                }
+                SquareImageView image = (SquareImageView) holder.vh2;
+                Glide.with(activity).load(icons.get(section).get(relative).icon).into(image);
 
-                image2.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                image.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
                 new MaterialDialog.Builder(activity)
-                        .customView(image2, false)
+                        .customView(image, false)
                         .title(icons.get(section).get(relative).name)
                         .positiveText("Close")
                         .show();
             }
         });
 
-        ((TextView)holder.title).setText(icons.get(section).get(relative).name);
+        ((TextView) holder.title).setText(icons.get(section).get(relative).name);
     }
 
     @Override
@@ -122,6 +86,7 @@ public class IconsAdapter extends SectionedRecyclerViewAdapter<IconsAdapter.View
         tv.setPadding(32, 32, 32, 0);
         String title = titles.get(section);
         tv.setText(title);
+        holder.v.setClickable(false);
     }
 
     @Override

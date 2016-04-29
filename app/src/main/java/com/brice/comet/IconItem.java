@@ -1,6 +1,5 @@
 package com.brice.comet;
 
-import android.graphics.drawable.Drawable;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -8,7 +7,6 @@ public class IconItem implements Parcelable {
 
     String name;
     int icon;
-    Drawable drawable;
 
     public IconItem(String name, int icon) {
         this.name = name;
